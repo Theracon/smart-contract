@@ -6,7 +6,7 @@ const { devChains, networkConfig } = require("../../helper-hardhat-config")
 if (devChains.includes(network.name)) {
   describe.skip
 } else {
-  describe("Lottery Unit Tests", function () {
+  describe("Lottery Staging Tests", function () {
     let lottery, entranceFee, deployer
 
     beforeEach(async function () {

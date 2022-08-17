@@ -9,11 +9,11 @@
     A crowdfunding decentralised app built on the ethereum blockchain.
     <br />
     <br />
-    <a href="https://github.com/Theracon/crowdfunder">View Demo</a>
+    <a href="https://github.com/Theracon/smart-contract">View Demo</a>
     ·
-    <a href="https://github.com/Theracon/crowdfunder/issues">Report Bug</a>
+    <a href="https://github.com/Theracon/smart-contract/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Theracon/crowdfunder/issues">Request Feature</a>
+    <a href="https://github.com/Theracon/smart-contract/issues">Request Feature</a>
   </p>
 </div>
 
@@ -95,11 +95,11 @@ Follow these instructions to get set up locally.
    ```sh
 
    RINKEBY_RPC_URL="https://eth-rinkeby.alchemyapi.io/v2/YOUR-UNIQUE-KEY"
-   RINKEBY_PRIVATE_KEY="ENTER YOUR PRIVATE KEY"
-   ETHERSCAN_API_KEY="ENTER YOUR ETHERSCAN API KEY"
-   COINMARKETCAP_API_KEY="ENTER YOUR COINMARKETCAP API KEY"
-   REPORT_GAS_ENABLED="SOME VALUE"
-   REPORT_GAS_COLORED="SOME VALUE"
+   RINKEBY_PRIVATE_KEY="<YOUR PRIVATE KEY>"
+   ETHERSCAN_API_KEY="<YOUR ETHERSCAN API KEY>"
+   COINMARKETCAP_API_KEY="<YOUR COINMARKETCAP API KEY>"
+   REPORT_GAS_ENABLED="<SOME VALUE>"
+   REPORT_GAS_COLORED="<SOME VALUE>"
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -118,7 +118,7 @@ yarn node
 In a new terminal, run the following command:
 
 ```sh
-yarn hardhat run scripts/deploy.js --network [network-name]
+hh deploy --network [network-name]
 ```
 
 Networks names that are config to use in this project are:
@@ -137,13 +137,13 @@ _For more usage examples, please refer to the [Documentation](https://hardhat.or
 - To run unit tests (local node):
 
 ```sh
-yarn test
+hh test
 ```
 
 - To run staging tests (rinkeby testnet):
 
 ```sh
-yarn test:staging
+hh test --network [network-name]
 ```
 
 ## Roadmap
@@ -154,7 +154,7 @@ yarn test:staging
   - [ ] Hindi
   - [ ] Spanish
 
-See the [open issues](https://github.com/Theracon/crowdfunder/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Theracon/smart-contract/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -189,7 +189,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 Ashraf Yusuf - [@ashrafofficia1](https://twitter.com/ashrafofficia1) - hello@ashraf.me
 
-Project Link: [https://github.com/Theracon/hardhat-simple-storage](https://github.com/Theracon/crowdfunder)
+Project Link: [https://github.com/Theracon/hardhat-simple-storage](https://github.com/Theracon/smart-contract)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
