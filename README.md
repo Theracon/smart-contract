@@ -189,7 +189,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 Ashraf Yusuf - [@ashrafofficia1](https://twitter.com/ashrafofficia1) - hello@ashraf.me
 
-Project Link: [https://github.com/Theracon/hardhat-simple-storage](https://github.com/Theracon/smart-contract)
+Project Link: [https://github.com/Theracon/smart-contract](https://github.com/Theracon/smart-contract)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
